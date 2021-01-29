@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A live chat widget linked to your telegram messenger",
   "engines": {
-    "node": "--lts=dubnium"
+    "node": "12.x"
   },
   "scripts": {
     "start": "nodemon -e js -x node -r dotenv/config server.js",
